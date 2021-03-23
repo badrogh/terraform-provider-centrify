@@ -11,25 +11,25 @@ The Terraform Provider for Centrify Vault is a Terraform plugin that allows othe
 
 ## Building The Provider
 
-Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-centrify`
+Clone repository to: `$GOPATH/src/github.com/centrify/terraform-provider-centrify`
 
 ```sh
-$ mkdir -p $GOPATH/src/github.com/terraform-provider-centrify
-$ cd $GOPATH/src/github.com/terraform-provider-centrify
+$ mkdir -p $GOPATH/src/github.com/centrify/terraform-provider-centrify
+$ cd $GOPATH/src/github.com/centrify/terraform-provider-centrify
 $ git clone https://github.com/centrify/terraform-provider-centrify terraform-provider-centrify
 ```
 
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-centrify
+$ cd $GOPATH/src/github.com/centrify/terraform-provider-centrify
 $ make build
 ```
 
 To install the provider in your home directory
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-centrify
+$ cd $GOPATH/src/github.com/centrify/terraform-provider-centrify
 $ make install
 ```
 
